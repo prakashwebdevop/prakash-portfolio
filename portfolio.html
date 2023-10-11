@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <style>
+       body{
+        background-color: antiquewhite;
+       }
+       span{
+        color:  olivedrab;
+       }
+       
+       h1{
+            font-size: 50px ;
+        }
+.project-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.project-card {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+    margin: 1rem;
+    padding: 1rem;
+    width: 300px;
+}
+
+.project-card img {
+    width: 100%;
+    height: auto;
+}
+
+.project-card h2 {
+    margin-top: 1rem;
+}
+
+.project-card a {
+    display: inline-block;
+    margin-top: 1rem;
+    text-decoration: none;
+    color: #007bff;
+    display: block;
+}
+
+.project-card a:hover {
+    color: #0056b3;
+}
+.nav-link {
+    display: inline-block;
+    padding: 10px 20px;
+    
+   
+     
+    background-color: #fff; 
+    border-radius: 5px;
+   
+}
+.nav{
+     color: #000;text-decoration: none; transition: background-color 0.3s ease;
+}
+
+.nav:hover {
+    background-color: #ddd;}
+@media (min-width:40em) and (max-width:62em){
+    .project-card{
+        display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 1rem;
+    justify-content: center;
+    }
+    
+@media (min-width:40em) and (max-width:62em){
+    .project-card{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-gap: 1rem;
+        justify-content: center;
+    }
+}
+}
+    </style>
+</head>
+<body>
+    <div class="nav-link">
+        <a class="nav" href="index.html">Home</a>
+    </div>
+    <div class="nav-link">
+        <a  class="nav" href="./about.html">About</a>
+    </div>
+    <h1>My <span>Projects</span></h1>
+    
+<div class="project-container">
+    <div class="project-card">
+      
+        <h2>Demonstrating Wireless Power Transfer Technology</h2>
+        <p>Created wireless mobile battery charger which sucessfuly demonstrated the wireless power transfer technology</p>
+       
+    </div>
+
+    <div class="project-card">
+        
+        <h2>Portfolio Website</h2>
+        <p>Created a portfolio website using HTML and css in Visual Studio code</p>
+       
+    </div>
+
+   
+</div>
+
+    
+
+</body>
+</html>
